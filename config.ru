@@ -4,7 +4,9 @@ Bundler.require(:default)
 
 class Application < Sinatra::Base
 
-puts 'Hello world'
+  get '/' do
+    app.rb
+  end
 
 end
 
